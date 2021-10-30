@@ -14,8 +14,8 @@ contract ServicePay{
         amount = _amount;
     }
 
-    function receiveBalance(address _balance) public{} onlySender{
-        balance[_balance.amount] = _balance;
+    function receiveBalance(address _balance) public onlySender view {
+        balance[_balance];
     }
 
     modifier onlySender{
