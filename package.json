@@ -1,0 +1,25 @@
+{
+  "name": "wallet-pay",
+  "version": "1.0.0",
+  "description": "A standard crypto payment smart contract to enable purchase/payment of a products.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devcraft1/wallet-pay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devcraft1/wallet-pay/issues"
+  },
+  "homepage": "https://github.com/devcraft1/wallet-pay#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.7.0"
+  }
+}
