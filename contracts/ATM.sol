@@ -1,4 +1,3 @@
-
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.5.13 <0.9.0;
 
@@ -28,7 +27,6 @@ contract ATM {
     }
 
     // In a Batch
-
     function transfer(address[] memory receivers, uint256 amount) public {
         require(
             balances[msg.sender] >= receivers.length * amount,

@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/devcraft1/wallet-pay#readme",
   "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0",
     "@truffle/hdwallet-provider": "^1.7.0"
   }
 }

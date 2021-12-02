@@ -3,7 +3,6 @@ const { projectId, mnemonic } = require('./secrets.json');
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 module.exports = {
-
   // Network configuration
   networks: {
     // development: {
@@ -11,7 +10,6 @@ module.exports = {
     //   port: 8545,            // Standard Ethereum port (default: none)
     //   network_id: "*",       // Any network (default: none)
     // },
-
     ropsten: {
       provider: () => new HDWalletProvider(mnemonic, `https://ropsten.infura.io/v3/${projectId}`),
       network_id: 3,       // Ropsten's id
