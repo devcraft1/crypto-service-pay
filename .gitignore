@@ -24,4 +24,4 @@ yarn-error.log*
 
 # json
 /secrets.json
-.secrets
+.secrets.json
