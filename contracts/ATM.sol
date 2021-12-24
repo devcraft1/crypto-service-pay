@@ -3,7 +3,6 @@ pragma solidity >=0.5.13 <0.9.0;
 
 contract ATM {
     mapping(address => uint256) public balances;
-
     event Deposit(address sender, uint256 amount);
     event Withdrawal(address receiver, uint256 amount);
     event Transfer(address sender, address receiver, uint256 amount);
